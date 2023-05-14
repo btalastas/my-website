@@ -5,6 +5,13 @@ export default function HeaderBar() {
     <Flex minWidth="max-content" alignItems="center" gap="1" padding='5' bgColor="twitter.500">
       <Box p="2">
         <Heading size="md">Btal Domain</Heading>
+        <Heading size="md"> More Stuff Here</Heading>
+        <Text height="50%">hello</Text>
+      </Box>
+      <Spacer />
+
+      <Box p="2">
+        <Heading size="md" > Extra stuff here</Heading>
       </Box>
       <Spacer />
         
@@ -18,6 +25,7 @@ export default function HeaderBar() {
         </Text>
         <Box as="Text" fontSize="sm" borderRadius='md' bg='white' color='black' px={1} h={10}>George Mason 2024</Box>
       </Box>
+
     </Flex>
   );
 }
