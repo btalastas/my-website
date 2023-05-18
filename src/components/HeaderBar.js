@@ -1,5 +1,5 @@
-import { Box } from "@chakra-ui/react";
-import { Flex, Spacer, Heading, Badge, Avatar, Text } from "@chakra-ui/react";
+import { Box, Flex, Spacer, Heading, Badge, Avatar, Text } from "@chakra-ui/react";
+
 export default function HeaderBar() {
   return (
     <Flex
